@@ -41,7 +41,7 @@ Expected output: [5]
 Test: "Do not add parsedInput to numberArray if it is NaN"
 Code: input = "words"
 firstNumber("words");
-Expected output: "Please enter a number only"
+Expected output: undefined
 
 ### Description: numberFill()
 Test: "Push all numbers up to and including the inputted number into an array"

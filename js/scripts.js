@@ -1,6 +1,6 @@
 // Utility Logic
 
-const input = "5";
+const input = "words are crazy";
 let parsedInput;
 const warning = "Please enter a number only";
 let initialArray = [];
@@ -24,6 +24,8 @@ function firstNumber(number) {
   if (!isNaN(parsedInput)) {
     initialArray.push(number);
     console.log(initialArray);
+  } else {
+    initialArray = undefined;
   }
 }
 firstNumber(parsedInput);
