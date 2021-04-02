@@ -33,6 +33,11 @@ Test: "Reject any user input that is not a number"
 Code: toInteger("words")
 Expected output: false
 
+### Description: beepBoop()
+Test: "Push parsedInput to an array"
+Code: beepBoop(parsedInput);
+Expected output: [5]
+
 ## Known Bugs
 
 No known bugs
