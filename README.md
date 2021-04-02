@@ -48,6 +48,11 @@ Test: "Push all numbers up to and including the inputted number into an array"
 Code: numberFill(5);
 Expected output: [0,1,2,3,4,5]
 
+### Description: beepBoop()
+Test: "It should return all values from numberAray"
+Code: beepBoop(numberArray);
+Expected output: "0,1,2,3,4,5"
+
 ## Known Bugs
 
 No known bugs

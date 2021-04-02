@@ -1,11 +1,11 @@
 // Utility Logic
 
-let input = "5";
+const input = "5";
 let parsedInput;
-let warning = "Please enter a number only";
+const warning = "Please enter a number only";
 let initialArray = [];
 let numberArray = [];
-
+let stringArray;
 // Business Logic
 
 function toInteger(input) {
@@ -38,5 +38,14 @@ function numberFill(number) {
 }
 numberFill();
 console.log(numberArray);
+
+function beepBoop(array) {
+  numberArray.forEach(function(element) {
+    stringArray = numberArray.toString();
+    console.log(stringArray);
+  })
+}
+beepBoop(numberArray);
+console.log(numberArray, stringArray);
 
 // User Interface Logic
