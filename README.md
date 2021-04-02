@@ -25,11 +25,13 @@ Open via Bash/GitBash:
 ## Tests/Specs
 
 ### Description: toInteger()
-Test: Take user input and convert from string to integer
+Test: "Take user input and convert from string to integer"
 Code: toInteger("5")
 Expected output: 5
 
-Test: 
+Test: "Reject any user input that is not a number"
+Code: toInteger("words")
+Expected output: false
 
 ## Known Bugs
 
