@@ -24,10 +24,12 @@ Open via Bash/GitBash:
 
 ## Tests/Specs
 
-### Description: 
-Test:
-Code:
-Expected output:
+### Description: toInteger()
+Test: Take user input and convert from string to integer
+Code: toInteger("5")
+Expected output: 5
+
+Test: 
 
 ## Known Bugs
 
