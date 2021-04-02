@@ -33,10 +33,20 @@ Test: "Reject any user input that is not a number"
 Code: toInteger("words")
 Expected output: false
 
-### Description: beepBoop()
+### Description: firstNumber()
 Test: "Push parsedInput to an array"
-Code: beepBoop(parsedInput);
+Code: firstNumber(5);
 Expected output: [5]
+
+Test: "Do not add parsedInput to numberArray if it is NaN"
+Code: input = "words"
+firstNumber("words");
+Expected output: "Please enter a number only"
+
+### Description: numberFill()
+Test: "Push all numbers up to and including the inputted number into an array"
+Code: numberFill(5);
+Expected output: [0,1,2,3,4,5]
 
 ## Known Bugs
 
