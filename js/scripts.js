@@ -1,11 +1,11 @@
 // Utility Logic
 
-const input = "words are crazy";
+const input = "5";
 let parsedInput;
 const warning = "Please enter a number only";
 let initialArray = [];
 let numberArray = [];
-let stringArray;
+let stringArray = [];
 // Business Logic
 
 function toInteger(input) {
@@ -42,10 +42,13 @@ numberFill();
 console.log(numberArray);
 
 function beepBoop(array) {
-  numberArray.forEach(function(element) {
-    stringArray = numberArray.toString();
-    console.log(stringArray);
-  })
+  const neighbor = "Won't you be my neighbor?";
+  stringArray = numberArray.map(function(element) {
+    return element.toString();
+  });
+  if (stringArray.includes("3")) {
+    console.log(neighbor);
+  }
 }
 beepBoop(numberArray);
 console.log(numberArray, stringArray);

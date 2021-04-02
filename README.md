@@ -49,9 +49,13 @@ Code: numberFill(5);
 Expected output: [0,1,2,3,4,5]
 
 ### Description: beepBoop()
-Test: "It should return all values from numberAray"
+Test: "It should return all values from numberAray as strings"
 Code: beepBoop(numberArray);
-Expected output: "0,1,2,3,4,5"
+Expected output: "0","1","2","3","4","5"
+
+Test: "Check if stringArray includes "3""
+Code: beepBoop(3)
+Expected output: "Won't you be my neighbor?"
 
 ## Known Bugs
 
