@@ -1,6 +1,6 @@
 // Utility Logic
 
-const input = "3";
+const input = "2";
 let parsedInput;
 const warning = "Please enter a number only";
 const neighbor = "Won't you be my neighbor?";
@@ -51,14 +51,17 @@ function backToStrings(numberArray) {
   });
 }
 backToStrings(numberArray);
-console.log(stringArray, neighbor);
+console.log(stringArray);
 
 function beepBoop(stringArray) {
   for (i = 0; i < stringArray.length; i++) {
     if (stringArray[i].includes("3")) {
       returnArray.push(neighbor);
+    } else if (stringArray[i].includes("2")) {
+      returnArray.push(boop);
     }
   }
+  console.log(returnArray);
 }
 beepBoop(stringArray);
 console.log(initialArray, numberArray, stringArray, returnArray);

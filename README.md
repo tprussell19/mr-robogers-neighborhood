@@ -53,9 +53,14 @@ Test: "It should return all values from numberAray as strings"
 Code: backToStrings(numberArray);
 Expected output: "0","1","2","3","4","5"
 
+### Description: beepBoop()
 Test: "If stringArray includes "3", return neighbor"
-Code: backToStrings(3);
+Code: beepBoop(3);
 Expected output: "Won't you be my neighbor?"
+
+Test: "If stringArray includes "2", return boop"
+Code: beepBoop(2);
+Expected output: "Boop!"
 
 ## Known Bugs
 
