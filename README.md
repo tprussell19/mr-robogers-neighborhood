@@ -54,17 +54,21 @@ Code: backToStrings(numberArray);
 Expected output: "0","1","2","3","4","5"
 
 ### Description: beepBoop()
-Test: "If stringArray includes "3", return neighbor"
+Test: "If stringArray includes "3", push neighbor to returnArray"
 Code: beepBoop(3);
 Expected output: "Won't you be my neighbor?"
 
-Test: "If stringArray includes "2", return boop"
+Test: "If stringArray includes "2", push boop to returnArray"
 Code: beepBoop(2);
 Expected output: "Boop!"
 
-Test: "If stringArray includes "1", return beep"
+Test: "If stringArray includes "1", push beep to returnArray"
 Code: beepBoop(1);
 Expected output: "Beep!"
+
+Test: "If stringArray includes anything else, push it to returnArray as is"
+Code: beepBoop(0);
+Expected outcome: "0"
 
 ## Known Bugs
 
