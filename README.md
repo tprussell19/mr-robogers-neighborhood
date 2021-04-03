@@ -62,6 +62,10 @@ Test: "If stringArray includes "2", return boop"
 Code: beepBoop(2);
 Expected output: "Boop!"
 
+Test: "If stringArray includes "1", return beep"
+Code: beepBoop(1);
+Expected output: "Beep!"
+
 ## Known Bugs
 
 No known bugs

@@ -1,6 +1,6 @@
 // Utility Logic
 
-const input = "2";
+const input = "1";
 let parsedInput;
 const warning = "Please enter a number only";
 const neighbor = "Won't you be my neighbor?";
@@ -59,6 +59,8 @@ function beepBoop(stringArray) {
       returnArray.push(neighbor);
     } else if (stringArray[i].includes("2")) {
       returnArray.push(boop);
+    } else if (stringArray[i].includes("1")) {
+      returnArray.push(beep);
     }
   }
   console.log(returnArray);
