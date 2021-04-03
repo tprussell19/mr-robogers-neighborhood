@@ -48,13 +48,13 @@ Test: "Push all numbers up to and including the inputted number into an array"
 Code: numberFill(5);
 Expected output: [0,1,2,3,4,5]
 
-### Description: beepBoop()
+### Description: backToStrings()
 Test: "It should return all values from numberAray as strings"
-Code: beepBoop(numberArray);
+Code: backToStrings(numberArray);
 Expected output: "0","1","2","3","4","5"
 
-Test: "Check if stringArray includes "3""
-Code: beepBoop(3)
+Test: "If stringArray includes "3", return neighbor"
+Code: backToStrings(3);
 Expected output: "Won't you be my neighbor?"
 
 ## Known Bugs
