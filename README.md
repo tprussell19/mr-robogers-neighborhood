@@ -24,7 +24,7 @@ Open via Bash/GitBash:
 
 ## Tests/Specs
 
-### Description: toInteger()
+#### Description: toInteger()
 Test: "Take user input and convert from string to integer"
 Code: toInteger("5")
 Expected output: 5
@@ -33,7 +33,7 @@ Test: "Reject any user input that is not a number"
 Code: toInteger("words")
 Expected output: false
 
-### Description: firstNumber()
+#### Description: firstNumber()
 Test: "Push parsedInput to an array"
 Code: firstNumber(5);
 Expected output: [5]
@@ -43,17 +43,17 @@ Code: input = "words"
 firstNumber("words");
 Expected output: undefined
 
-### Description: numberFill()
+#### Description: numberFill()
 Test: "Push all numbers up to and including the inputted number into an array"
 Code: numberFill(5);
 Expected output: [0,1,2,3,4,5]
 
-### Description: backToStrings()
+#### Description: backToStrings()
 Test: "It should return all values from numberAray as strings"
 Code: backToStrings(numberArray);
 Expected output: "0","1","2","3","4","5"
 
-### Description: beepBoop()
+#### Description: beepBoop()
 Test: "If stringArray includes "3", push neighbor to returnArray"
 Code: beepBoop(3);
 Expected output: "Won't you be my neighbor?"
