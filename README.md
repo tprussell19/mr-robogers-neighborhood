@@ -6,7 +6,7 @@
 
 ## Description
 
-_ _
+_An application that takes a number from the user and returns a list of all of the numbers leading up to that number with a few exceptions. If the number includes a "1" as one of the digits, it will return "Beep!" instead of the number. Likewise, if a "2" appears in a number in the list, it will be returned as "Boop!". Finally, "3"s are returned with the message "Won't you be my neighbor?"_
 
 ## Setup/Installation Requirements
 
@@ -72,7 +72,8 @@ Expected outcome: "0"
 
 ## Known Bugs
 
-No known bugs
+* Words and/or symbols do not receive a returned string.
+* Entering another number without reloading the page does not return a new string of numbers.
 
 ## Contact
 
