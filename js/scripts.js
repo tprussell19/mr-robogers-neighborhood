@@ -68,6 +68,7 @@ $(document).ready(function() {
     backToStrings(numberArray);
     beepBoop(stringArray);
     returnArray = returnArray.join(', ');
+    $("#return").show();
     $("#returnedText").text(returnArray);
   })
 })
