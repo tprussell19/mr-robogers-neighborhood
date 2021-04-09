@@ -24,24 +24,11 @@ Open via Bash/GitBash:
 
 ## Tests/Specs
 
-#### Description: toInteger()
-Test: "Take user input and convert from string to integer"
-Code: toInteger("5")
-Expected output: 5
-
-Test: "Reject any user input that is not a number"
-Code: toInteger("words")
-Expected output: false
-
 #### Description: firstNumber()
-Test: "Push parsedInput to an array"
+Test: "Push inputtedText to an array"
 Code: firstNumber(5);
 Expected output: [5]
 
-Test: "Do not add parsedInput to numberArray if it is NaN"
-Code: input = "words"
-firstNumber("words");
-Expected output: undefined
 
 #### Description: numberFill()
 Test: "Push all numbers up to and including the inputted number into an array"
@@ -51,29 +38,33 @@ Expected output: [0,1,2,3,4,5]
 #### Description: backToStrings()
 Test: "It should return all values from numberAray as strings"
 Code: backToStrings(numberArray);
-Expected output: "0","1","2","3","4","5"
+Expected output: ["0","1","2","3","4","5"]
 
 #### Description: beepBoop()
 Test: "If stringArray includes "3", push neighbor to returnArray"
 Code: beepBoop(3);
-Expected output: "Won't you be my neighbor?"
+Expected output: ["0","1","2","Won't you be my neighbor?"]
 
 Test: "If stringArray includes "2", push boop to returnArray"
 Code: beepBoop(2);
-Expected output: "Boop!"
+Expected output: ["0","1","Boop!"]
 
 Test: "If stringArray includes "1", push beep to returnArray"
 Code: beepBoop(1);
-Expected output: "Beep!"
+Expected output: ["0","Beep!"]
 
 Test: "If stringArray includes anything else, push it to returnArray as is"
 Code: beepBoop(0);
-Expected outcome: "0"
+Expected outcome: ["0"]
+
+#### Description: doEverything()
+Test: "Runs the other functions and adds a space between elements in returnArray"
+Code: doEverything(4);
+Expected outcome: [" 0"," Beep!"," Boop!"," Won't you be my neighbor?"," 4"]
 
 ## Known Bugs
 
-* Words and/or symbols do not receive a returned string.
-* Entering another number without reloading the page does not return a new string of numbers.
+* No known bugs
 
 ## Contact
 
